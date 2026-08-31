@@ -1,0 +1,17 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+allowBuilds:
+  '@nestjs/core': set this to true or false
+  '@parcel/watcher': set this to true or false
+  esbuild: set this to true or false
+  unrs-resolver: set this to true or false
+
+# pnpm 11 moved settings here from package.json.
+# Only these dependencies are allowed to run install-time build scripts.
+onlyBuiltDependencies:
+  - esbuild
+  - '@nestjs/core'
+  - '@parcel/watcher'
+  - unrs-resolver

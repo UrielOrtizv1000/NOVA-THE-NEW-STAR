@@ -1,0 +1,66 @@
+# ---- Secrets & credentials (never commit) ----
+# If you accidentally commit one of these, ROTATE the secret, do not just delete it.
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# ---- Dependencies (regenerable) ----
+node_modules/
+.pnpm-store/
+
+# ---- Build / output artifacts (regenerable) ----
+dist/
+build/
+out/
+target/                 # Rust (Tauri) build output
+*.tsbuildinfo
+
+# ---- Tauri / Rust ----
+apps/desktop/src-tauri/target/
+apps/desktop/src-tauri/gen/
+
+# ---- Tests ----
+coverage/
+.nyc_output/
+*.lcov
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- Local databases ----
+*.db
+*.sqlite
+*.sqlite3
+*.pgsql
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- Temporary ----
+.tmp/
+*.tmp
+
+# ---- Design mockups (reference only, not committed) ----
+designs/
+
+# ---- AI instructions (local guide, not committed) ----
+AGENTS.md
+CLAUDE.md
+.cursorrules
+.ai/
+ai-instructions*
+

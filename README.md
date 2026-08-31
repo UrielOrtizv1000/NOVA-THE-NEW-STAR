@@ -20,13 +20,40 @@ It is built to be read and understood — with clear code, detailed comments, an
 
 ## Getting started
 
-Coming soon. The project skeleton is being set up.
+### Prerequisites
+- [Node.js](https://nodejs.org) (LTS)
+- [pnpm](https://pnpm.io)
+- [Docker](https://www.docker.com) (for PostgreSQL and Redis)
+- [Rust](https://rustup.rs) + [MSVC Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) (for the Tauri desktop app)
 
-<br>
+### Install and run
+```bash
+# 1. Install dependencies (all workspaces at once)
+pnpm install
 
-<p align="center">
-  <img src="icono-NOVA.png" alt="NOVA icon" width="120">
-</p>
+# 2. Start the development database (PostgreSQL + Redis)
+docker compose up -d
+
+# 3. Copy the environment template and fill in local values
+cp .env.example .env
+```
+
+### Documentation
+For students and contributors, the project ships with didactic docs:
+
+- [Architecture](docs/architecture.md) — how the pieces fit together
+- [Message flow](docs/message-flow.md) — the central end-to-end flow
+- [Call flow](docs/call-flow.md) — WebRTC voice/video/screen sharing
+- [Glossary](docs/glossary.md) — terms explained
+
+## Project layout
+
+```text
+apps/desktop     Desktop app (Tauri: React + minimal Rust shell)
+apps/server      Backend API + realtime layer (NestJS + Socket.IO)
+packages/shared  Types and contracts shared by frontend and backend
+docs/            Didactic documentation
+```
 
 ## License
 

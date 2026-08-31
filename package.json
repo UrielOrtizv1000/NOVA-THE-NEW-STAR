@@ -1,0 +1,17 @@
+{
+  "name": "nova-the-new-star",
+  "version": "0.1.0",
+  "private": true,
+  "description": "NOVA — THE NEW STAR. Private messaging for two people. Open source (AGPL-3.0).",
+  "license": "AGPL-3.0",
+  "packageManager": "pnpm@11.24.0",
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

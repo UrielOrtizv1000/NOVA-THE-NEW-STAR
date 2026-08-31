@@ -4,20 +4,30 @@
 
 # NOVA — THE NEW STAR
 
-Mensajería privada para dos personas, con la calidad que las apps de mensajería actuales han dejado de ofrecer.
+Private messaging for two people, with the quality that today's messaging apps have stopped offering.
 
-## Por qué NOVA
+## Why NOVA
 
-Existen muchas aplicaciones de mensajería, pero casi ninguna pensada realmente para lo que necesitamos: comunicación privada, simple y directa entre dos personas. La mayoría son servicios masivos que venden tu información, llenos de ruido, funciones innecesarias y una calidad que se degrada con el tiempo.
+There are plenty of messaging apps out there, but almost none built for what we actually need: private, simple, direct communication between two people. Most are mass services that sell your information, full of noise, unnecessary features, and a quality that degrades over time.
 
-**NOVA viene a mejorar eso.** No reinventamos la rueda: tomamos lo que funciona y lo hacemos bien, con una experiencia cuidada, sin spam, sin telemetría invasiva y con una estética propia. Una herramienta personal que prioriza la calidad sobre la escala.
+**NOVA exists to improve that.** We are not reinventing the wheel: we take what works and do it well, with a polished experience, no spam, no invasive telemetry, and a distinct aesthetic of its own. A personal tool that puts quality over scale.
 
-## Estado del proyecto
+## About the project
 
-Este es un **proyecto personal** que se irá **mejorando con el tiempo**. Empieza como una app de escritorio para dos personas, y crece a medida que se pulen detalles, se añaden funciones y se refina la experiencia.
+This is a **personal, open-source project** that will keep **improving over time**. It starts as a desktop app for two people and grows as details are refined, features are added, and the experience is polished.
+
+It is built to be read and understood — with clear code, detailed comments, and didactic documentation — so that engineering students anywhere in the world can learn from a real, working project.
+
+## Getting started
+
+Coming soon. The project skeleton is being set up.
 
 <br>
 
 <p align="center">
-  <img src="icono-NOVA.png" alt="NOVA icono" width="120">
+  <img src="icono-NOVA.png" alt="NOVA icon" width="120">
 </p>
+
+## License
+
+Licensed under the [GNU AGPL-3.0](LICENSE).
